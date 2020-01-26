@@ -1,0 +1,12 @@
+prefix=C:/Program Files (x86)/rabbitmq-c
+exec_prefix=C:/Program Files (x86)/rabbitmq-c/bin
+libdir=C:/Program Files (x86)/rabbitmq-c/lib
+includedir=C:/Program Files (x86)/rabbitmq-c/include
+
+Name: Librabbitmq
+Description: An AMQP 0-9-1 client library
+Version: 0.3.0
+Requires:
+Requires.private:
+Libs: -L${libdir} -lrabbitmq
+CFlags: -I${includedir}
